@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/mobile.css" media="screen and (max-width: 870px)">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 15px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content-wrapper">
+      <div class="bubble-wrapper">
+        <div class="gb-left-bubble">
+          <span class="gb-left">185</span> gb left
+        </div>
+      </div>
+      <div class="card upload-area">
+        <div class="logo"><img src="/images/logo.svg" alt="FYLO"></div>
+        <ul class="upload-buttons">
+          <li><img src="/images/icon-document.svg" alt="document"></li>
+          <li><img src="/images/icon-folder.svg" alt="document"></li>
+          <li><img src="/images/icon-upload.svg" alt="document"></li>
+        </ul>
+      </div>
+      <div class="card storage-status">
+      <div class="storage-used-wrapper">
+        <p>You’ve used <span class="storage-used">815 GB</span> of your storage</p>
+        <div class="storage-progress">
+          <div class="progress-bar">
+            <i class="progress-dot"></i>
+          </div>
+        </div>
+        <div class="min-max-storage-range">
+          <p class="min-storage">0 GB</p>
+          <p class="max-storage">1000 GB</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/gabriel-salesh" target="_blank">Gabriel Sales</a>.
+  </div>
+</body>
+</html>
